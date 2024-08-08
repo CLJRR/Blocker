@@ -8,7 +8,7 @@ function showPopup() {
   const popup = document.createElement("div");
   popup.className = "popup-content";
   popup.innerHTML = `
-      <img src="/icons/icon16.png" alt="warning" /><br />
+      <img src="./icons/icon16.png" alt="warning" /><br />
       <h1>Warning</h1>
       <p>This website has been reported as a phishing site.</p>
       <button id="close-popup">Close</button>
